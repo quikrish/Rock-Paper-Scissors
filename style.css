@@ -7,6 +7,18 @@ h1 {
     text-align: center;
     margin: 60px 0 80px 0;
   }
+  
+  p{
+    text-align: center;
+    font-size: x-large;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+  }
 
 .container{
     display: flex;

@@ -1,0 +1,7 @@
+  const winner = (player1Choice === player2Choice) 
+   ? 'It\'s a tie!🎀' 
+    : ((player1Choice === 'rock' && player2Choice ==='scissors') || 
+      (player1Choice ==='scissors' && player2Choice === 'paper') || 
+      (player1Choice === 'paper' && player2Choice === 'rock')) 
+       ? player1Wins() 
+        : player2Wins();
